@@ -8,6 +8,8 @@
 
 .logo{
     margin-top: 1rem;
+    width: 250px;
+    margin-left: 20px;
 }
 
 .banner img {
@@ -77,9 +79,9 @@ align-items: center;
 
 }
 
-#logo {
-    width: 250px;
-    margin-left: 20px;
+#logo2 {
+    width: 300px;
+    margin-left: -100px;
 }
 
 .pie-pagina .grupo-1 .box h1{
