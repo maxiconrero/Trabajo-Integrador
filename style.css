@@ -1,4 +1,108 @@
-body{
-    background-color: red;
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.navbar{
+    background-color:rgb(245, 245, 200) ;
+    
 }
 
+.logo{
+    margin-top: 1rem;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+  }
+
+
+body{
+    
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+.contacto{
+    background-color: rgba(131, 72, 187, 0.836);
+    padding: 5rem;
+}
+.form{
+    background-color: #ffffff3f;
+}
+
+
+
+.pie-pagina{
+    width: 100%;
+    background-color: #121d28;
+}
+.pie-pagina .grupo-1{
+width: 100%;
+max-width: 1200px;
+margin-left: auto;
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-gap: 50px;
+padding: 45px 0px;
+
+}
+
+.pie-pagina .grupo-1 .box figure {
+width: 100%;
+height: 100%;
+display: flex;
+justify-content: center;  
+/* horizontal y vertical */
+align-items: center;    
+
+}
+
+#logo {
+    width: 250px;
+    margin-left: 20px;
+}
+
+.pie-pagina .grupo-1 .box h1{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+.pie-pagina .grupo-1 .box p{
+
+    color: #efefef;
+    margin-bottom: 10px;
+}
+
+.pie-pagina .grupo-1 .red-social a{
+
+    display: inline-block;
+    text-decoration: none;
+    /* sin subrayar */
+    width: 45px;
+    height: 45px;
+    color: #fff;
+    line-height: 45px;
+    margin-right: 10px;
+    background-color:  #0d2033;
+    text-align: center;
+    transition: all 300ms ease;
+}
+
+.pie-pagina .grupo-1 .red-social a:hover{
+
+    color: rgb(42, 221, 230);
+}
+
+.pie-pagina .grupo-2{
+    background-color: #010101;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
