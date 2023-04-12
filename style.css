@@ -1,9 +1,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-.navbar{
+header{
     background-color:rgb(245, 245, 200) ;
-    
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+
 }
 
 .logo{
@@ -13,6 +18,7 @@
 }
 
 .banner img {
+    margin-top: 1rem;
     width: 100%;
     height: auto;
   }
@@ -22,6 +28,40 @@ body{
     
 }
 
+/* Prueba chat contacto
+
+.chatbot-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+  }
+  .chatbot-button {
+    background-color: #7721bf;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .chatbot-form {
+    display: none;
+    position: absolute;
+    bottom: 100%;
+    right: 0;
+    width: 300px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    
+  }
+  
+  .chatbot-form--open {
+    display: block;
+  }
+
+  Prueba chat contacto */
 
 
 *{
