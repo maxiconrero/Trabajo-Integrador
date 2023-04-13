@@ -28,7 +28,8 @@ body{
     
 }
 
-/* Prueba chat contacto
+
+
 
 .chatbot-container {
     position: fixed;
@@ -50,9 +51,9 @@ body{
     position: absolute;
     bottom: 100%;
     right: 0;
-    width: 300px;
-    padding: 20px;
-    background-color: white;
+    width: 500px;
+    padding: 30px;
+    background-color: #ddd;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
     
   }
@@ -61,7 +62,7 @@ body{
     display: block;
   }
 
-  Prueba chat contacto */
+ 
 
 
 *{
