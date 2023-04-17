@@ -23,7 +23,7 @@ fetch('https://free-to-play-games-database.p.rapidapi.com/api/games', options)
 
     const gamesContainer = document.querySelector('#games-container');
 
-    const gamesMostrados = data.slice(0, 12); // Obtener los primeros 20 juegos
+    const gamesMostrados = data.slice(0, 12); // Obtener los primeros 12 juegos
 
     gamesMostrados.forEach(game => {
       const gameDiv = document.createElement('div');
@@ -47,4 +47,27 @@ fetch('https://free-to-play-games-database.p.rapidapi.com/api/games', options)
 
   .catch(err => console.error(err));
 
+
+  function generarPDF() {
+    // Obtener los valores del formulario
+    var nombre = document.getElementById("nombreCompleto").value;
+    var plataforma = document.getElementById("nombreJuego").value;
+    var genero = document.getElementById("descripcionJuego").value;
+  
+    
+  // Crear el objeto jsPDF
+  var doc = new jsPDF(); 
+  
+    // Agregar contenido al PDF
+    pdf.text("Nombre: " + nombre, 10, 10);
+    pdf.text("Plataforma: " + plataforma, 10, 20);
+    pdf.text("Género: " + genero, 10, 30);
+  
+    // Guardar el PDF en un archivo
+    pdf.save("formulario_videojuegos.pdf");
+  }
+ 
+  function generarPDF() {
+    
+  }
  

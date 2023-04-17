@@ -52,8 +52,10 @@ header {
 }
 
 .game-container h2 {
+  font-family: "Poppins", sans-serif;
+  color: #7721bf;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   margin-bottom: 10px;
   height: 50px;
   display: flex;
