@@ -2,7 +2,6 @@
 
 header {
   background-color: rgb(245, 245, 200);
-  position: fixed;
   top: 0;
   left: 0;
   right: 0;
@@ -16,7 +15,6 @@ header {
 }
 
 .banner img {
-  margin-top: 1rem;
   width: 100%;
   height: auto;
 }
@@ -212,7 +210,20 @@ header {
   text-align: center;
   color: #fff;
 }
+
+
+.btn {
+  margin-top: 30px;
+}
+
+.formulario-contacto {
+  padding: 20px;
+  background-color:cornsilk ;
+  border-radius: 15px;
+}
 @media (min-width: 768px) {
+
+
   .game-container {
     flex: 1 calc(50% - 30px);
   } 
@@ -223,6 +234,15 @@ header {
   }
  }
 @media (min-width: 1024px) {
+
+  header {
+    position: fixed;
+  }
+
+  .banner img {
+    margin-top: 5%;
+  }
+
   .pie-pagina .grupo-1 {
     width: 100%;
     max-width: 1200px;
@@ -261,5 +281,3 @@ header {
 
 
 }
-/* @media (min-width: 1200px) {
-} */
